@@ -61,31 +61,66 @@ namespace Blackjack
             playerHand.Add(DrawCard());
             UpdateScores();
 
-            if (GetScore(playerHand) > 21)
+            int playerScore = GetScore(playerHand);
+
+            if (playerScore == 21)
+            {
+                lblResult.Text = "Blackjack! You win.";
+                btnHit.Enabled = false;
+                btnStand.Enabled = false;
+            }
+            else if (playerScore > 21)
+            {
                 lblResult.Text = "You busted!";
+                btnHit.Enabled = false;
+                btnStand.Enabled = false;
+            }
         }
 
         private void btnStand_Click(object sender, EventArgs e)
         {
             while (GetScore(dealerHand) < 17)
+            {
                 dealerHand.Add(DrawCard());
+            }
 
             UpdateScores();
 
             int playerScore = GetScore(playerHand);
             int dealerScore = GetScore(dealerHand);
 
-            if (dealerScore > 21 || playerScore > dealerScore)
+            if (playerScore > 21)
+            {
+                lblResult.Text = "You busted!";
+            }
+            else if (dealerScore > 21)
+            {
+                lblResult.Text = "Dealer busted! You win!";
+            }
+            else if (playerScore > dealerScore)
+            {
                 lblResult.Text = "You win!";
-            else if (dealerScore == playerScore)
+            }
+            else if (playerScore == dealerScore)
+            {
                 lblResult.Text = "It's a tie!";
+            }
             else
+            {
                 lblResult.Text = "Dealer wins!";
+            }
+
+           
+            btnHit.Enabled = false;
+            btnStand.Enabled = false;
+
         }
 
         private void btnRestart_Click(object sender, EventArgs e)
         {
             RestartGame();
+            btnHit.Enabled = true;
+            btnStand.Enabled = true;
         }
     }
    }
