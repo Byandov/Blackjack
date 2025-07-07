@@ -21,6 +21,9 @@ namespace Blackjack
         {
             InitializeComponent();
             RestartGame();
+            this.FormBorderStyle = FormBorderStyle.None;   
+            this.WindowState = FormWindowState.Maximized;  
+            this.TopMost = true;
         }
 
         private void RestartGame()
@@ -121,6 +124,11 @@ namespace Blackjack
             RestartGame();
             btnHit.Enabled = true;
             btnStand.Enabled = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
    }
