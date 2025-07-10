@@ -65,7 +65,7 @@
             this.lblPlayerScore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblPlayerScore.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPlayerScore.ForeColor = System.Drawing.Color.White;
-            this.lblPlayerScore.Location = new System.Drawing.Point(786, 882);
+            this.lblPlayerScore.Location = new System.Drawing.Point(676, 746);
             this.lblPlayerScore.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPlayerScore.Name = "lblPlayerScore";
             this.lblPlayerScore.Size = new System.Drawing.Size(194, 43);
@@ -78,7 +78,7 @@
             this.lblDealerScore.BackColor = System.Drawing.Color.Transparent;
             this.lblDealerScore.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblDealerScore.ForeColor = System.Drawing.Color.White;
-            this.lblDealerScore.Location = new System.Drawing.Point(843, 9);
+            this.lblDealerScore.Location = new System.Drawing.Point(797, 9);
             this.lblDealerScore.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDealerScore.Name = "lblDealerScore";
             this.lblDealerScore.Size = new System.Drawing.Size(366, 72);
@@ -91,7 +91,7 @@
             this.lblResult.BackColor = System.Drawing.Color.Transparent;
             this.lblResult.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblResult.ForeColor = System.Drawing.Color.White;
-            this.lblResult.Location = new System.Drawing.Point(816, 341);
+            this.lblResult.Location = new System.Drawing.Point(765, 317);
             this.lblResult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(512, 113);
@@ -104,7 +104,7 @@
             this.btnHit.BackgroundImage = global::Blackjack.Properties.Resources.Copilot_20250707_122804;
             this.btnHit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHit.Location = new System.Drawing.Point(1519, 248);
+            this.btnHit.Location = new System.Drawing.Point(1516, 296);
             this.btnHit.Margin = new System.Windows.Forms.Padding(2);
             this.btnHit.Name = "btnHit";
             this.btnHit.Size = new System.Drawing.Size(204, 66);
@@ -117,7 +117,7 @@
             this.btnStand.BackgroundImage = global::Blackjack.Properties.Resources.Copilot_20250707_123053;
             this.btnStand.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnStand.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnStand.Location = new System.Drawing.Point(1519, 318);
+            this.btnStand.Location = new System.Drawing.Point(1516, 379);
             this.btnStand.Margin = new System.Windows.Forms.Padding(2);
             this.btnStand.Name = "btnStand";
             this.btnStand.Size = new System.Drawing.Size(204, 66);
@@ -130,7 +130,7 @@
             this.btnRestart.BackgroundImage = global::Blackjack.Properties.Resources.Copilot_20250707_123315;
             this.btnRestart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRestart.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRestart.Location = new System.Drawing.Point(1519, 388);
+            this.btnRestart.Location = new System.Drawing.Point(1516, 459);
             this.btnRestart.Margin = new System.Windows.Forms.Padding(2);
             this.btnRestart.Name = "btnRestart";
             this.btnRestart.Size = new System.Drawing.Size(204, 66);
@@ -155,7 +155,7 @@
             this.button1.BackgroundImage = global::Blackjack.Properties.Resources.Copilot_20250707_122421;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1759, 979);
+            this.button1.Location = new System.Drawing.Point(1737, 963);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 77);
@@ -166,7 +166,7 @@
             // playerCardBox3
             // 
             this.playerCardBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.playerCardBox3.Location = new System.Drawing.Point(839, 605);
+            this.playerCardBox3.Location = new System.Drawing.Point(851, 555);
             this.playerCardBox3.Name = "playerCardBox3";
             this.playerCardBox3.Size = new System.Drawing.Size(100, 143);
             this.playerCardBox3.TabIndex = 8;
@@ -175,7 +175,7 @@
             // playerCardBox4
             // 
             this.playerCardBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.playerCardBox4.Location = new System.Drawing.Point(947, 605);
+            this.playerCardBox4.Location = new System.Drawing.Point(957, 555);
             this.playerCardBox4.Name = "playerCardBox4";
             this.playerCardBox4.Size = new System.Drawing.Size(100, 143);
             this.playerCardBox4.TabIndex = 9;
@@ -184,7 +184,7 @@
             // playerCardBox2
             // 
             this.playerCardBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.playerCardBox2.Location = new System.Drawing.Point(733, 605);
+            this.playerCardBox2.Location = new System.Drawing.Point(745, 555);
             this.playerCardBox2.Name = "playerCardBox2";
             this.playerCardBox2.Size = new System.Drawing.Size(100, 143);
             this.playerCardBox2.TabIndex = 10;
@@ -193,7 +193,7 @@
             // playerCardBox1
             // 
             this.playerCardBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.playerCardBox1.Location = new System.Drawing.Point(627, 605);
+            this.playerCardBox1.Location = new System.Drawing.Point(639, 555);
             this.playerCardBox1.Name = "playerCardBox1";
             this.playerCardBox1.Size = new System.Drawing.Size(100, 143);
             this.playerCardBox1.TabIndex = 11;
@@ -202,7 +202,7 @@
             // playerCardBox5
             // 
             this.playerCardBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.playerCardBox5.Location = new System.Drawing.Point(1053, 605);
+            this.playerCardBox5.Location = new System.Drawing.Point(1063, 555);
             this.playerCardBox5.Name = "playerCardBox5";
             this.playerCardBox5.Size = new System.Drawing.Size(100, 143);
             this.playerCardBox5.TabIndex = 12;
@@ -210,7 +210,7 @@
             // 
             // dealerCardBox2
             // 
-            this.dealerCardBox2.Location = new System.Drawing.Point(733, 117);
+            this.dealerCardBox2.Location = new System.Drawing.Point(639, 92);
             this.dealerCardBox2.Name = "dealerCardBox2";
             this.dealerCardBox2.Size = new System.Drawing.Size(100, 124);
             this.dealerCardBox2.TabIndex = 13;
@@ -218,7 +218,7 @@
             // 
             // dealerCardBox3
             // 
-            this.dealerCardBox3.Location = new System.Drawing.Point(839, 117);
+            this.dealerCardBox3.Location = new System.Drawing.Point(851, 92);
             this.dealerCardBox3.Name = "dealerCardBox3";
             this.dealerCardBox3.Size = new System.Drawing.Size(100, 124);
             this.dealerCardBox3.TabIndex = 14;
@@ -226,7 +226,7 @@
             // 
             // dealerCardBox4
             // 
-            this.dealerCardBox4.Location = new System.Drawing.Point(945, 117);
+            this.dealerCardBox4.Location = new System.Drawing.Point(957, 92);
             this.dealerCardBox4.Name = "dealerCardBox4";
             this.dealerCardBox4.Size = new System.Drawing.Size(100, 124);
             this.dealerCardBox4.TabIndex = 15;
@@ -234,7 +234,7 @@
             // 
             // dealerCardBox1
             // 
-            this.dealerCardBox1.Location = new System.Drawing.Point(627, 117);
+            this.dealerCardBox1.Location = new System.Drawing.Point(745, 92);
             this.dealerCardBox1.Name = "dealerCardBox1";
             this.dealerCardBox1.Size = new System.Drawing.Size(100, 124);
             this.dealerCardBox1.TabIndex = 16;
@@ -242,7 +242,7 @@
             // 
             // dealerCardBox5
             // 
-            this.dealerCardBox5.Location = new System.Drawing.Point(1051, 117);
+            this.dealerCardBox5.Location = new System.Drawing.Point(1063, 92);
             this.dealerCardBox5.Name = "dealerCardBox5";
             this.dealerCardBox5.Size = new System.Drawing.Size(100, 124);
             this.dealerCardBox5.TabIndex = 17;
